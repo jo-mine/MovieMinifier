@@ -1,4 +1,11 @@
 {
+  "workspaces": [
+    "backend"
+  ],
+  "scripts": {
+    "dev": "bun run --workspaces dev",
+    "dev:backend": "bun run --filter backend dev"
+  },
   "dependencies": {},
   "devDependencies": {
     "@biomejs/biome": "2.3.13"
