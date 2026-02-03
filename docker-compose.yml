@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  app:
+    build:
+      context: dockerfile
+      dockerfile: app.Dockerfile
+    image: movieminifier-app-image
+    container_name: movieminifier-app-container
+    volumes:
+      - .:/app:cached
+    # command: bun run dev
+    ports:
+      - "3000:3000"
+    tty: true
+    entrypoint: /bin/sh
