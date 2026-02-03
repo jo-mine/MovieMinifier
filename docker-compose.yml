@@ -9,7 +9,5 @@ services:
     volumes:
       - .:/app:cached
     # command: bun run dev
-    ports:
-      - "3000:3000"
     tty: true
     entrypoint: /bin/sh
