@@ -1,10 +1,12 @@
 {
   "workspaces": [
-    "backend"
+    "backend",
+    "frontend"
   ],
   "scripts": {
     "dev": "bun run --workspaces dev",
-    "dev:backend": "bun run --filter backend dev"
+    "dev:backend": "bun run --filter backend dev",
+    "dev:frontend": "bun run --filter frontend dev"
   },
   "dependencies": {},
   "devDependencies": {
