@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "@repo/backend",
   "scripts": {
     "dev": "bun run --hot src/index.ts"
   },

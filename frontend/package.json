@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "name": "@repo/frontend",
   "type": "module",
   "private": true,
   "scripts": {
