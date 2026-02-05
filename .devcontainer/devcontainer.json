@@ -19,7 +19,8 @@
         "eamodio.gitlens",
         "mhutchie.git-graph",
         "EditorConfig.EditorConfig",
-        "biomejs.biome"
+        "biomejs.biome",
+        "Vue.volar"
       ]
     }
   }
