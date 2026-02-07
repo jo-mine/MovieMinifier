@@ -1,5 +1,5 @@
 {
-	"name": "@apps/frontend",
+	"name": "@packages/frontend",
 	"type": "module",
 	"private": true,
 	"scripts": {
@@ -17,6 +17,6 @@
 		"vue-router": "^4.6.4"
 	},
 	"devDependencies": {
-		"@apps/backend": "*"
+		"@packages/backend": "*"
 	}
 }

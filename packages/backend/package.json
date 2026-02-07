@@ -1,5 +1,5 @@
 {
-	"name": "@apps/backend",
+	"name": "@packages/backend",
 	"module": "index.ts",
 	"type": "module",
 	"private": true,
