@@ -20,8 +20,7 @@
         "mhutchie.git-graph",
         "EditorConfig.EditorConfig",
         "biomejs.biome",
-        "Vue.volar",
-        "google.geminicodeassist"
+        "Vue.volar"
       ]
     }
   }
