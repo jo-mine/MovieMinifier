@@ -1,6 +1,7 @@
 {
 	"workspaces": [
-		"packages/*"
+		"packages/*",
+		"packages/ifs/*"
 	],
 	"scripts": {
 		"dev": "bun run --workspaces dev",
