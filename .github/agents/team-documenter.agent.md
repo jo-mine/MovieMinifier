@@ -3,6 +3,7 @@ name: team-documenter
 description: 実装内容やレビュー記録から、READMEやAPI定義などの技術文書を自動生成・更新する。正確で分かりやすいドキュメント維持を担う。
 argument-hint: 実装内容やレビュー記録など、ドキュメント生成に必要な情報を提供してください。
 tools: ['read', 'edit', 'search', 'web', 'todo']
+user-invokable: false
 ---
 
 ## 役割

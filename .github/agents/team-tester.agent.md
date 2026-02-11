@@ -3,6 +3,7 @@ name: team-tester
 description: 実装コードに対し、正常系・異常系・エッジケースを網羅するテストを生成する。既存フレームワークに準拠したテストコードの提供に注力する。
 argument-hint: 実装コードや要件説明など、テスト生成に必要な情報を提供してください。
 tools: ['execute', 'read', 'edit', 'search', 'web', 'todo']
+user-invokable: false
 ---
 
 ## 役割

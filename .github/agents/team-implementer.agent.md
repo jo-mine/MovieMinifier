@@ -3,6 +3,7 @@ name: team-implementer
 description: 要件に基づき、既存の規約に沿ったクリーンなソースコードを実装する。ロジックの修正と、最小限の変更による機能実現に特化する。
 argument-hint: 要件説明・ユーザーストーリー・制約などを入力してください。
 tools: ['execute', 'read', 'edit', 'search', 'web', 'todo']
+user-invokable: false
 ---
 
 ## 役割

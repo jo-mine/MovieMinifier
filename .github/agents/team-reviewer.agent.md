@@ -3,6 +3,7 @@ name: team-reviewer
 description: コードとテストを検査し、規約・品質・安全性を評価する。不備があれば修正指示を出し、合格するまで次工程への移行を承認しない。
 argument-hint: コードベースやテストケースなど、レビュー対象を提供してください。
 tools: ['execute', 'read', 'search', 'web', 'todo']
+user-invokable: false
 ---
 
 ## 役割
