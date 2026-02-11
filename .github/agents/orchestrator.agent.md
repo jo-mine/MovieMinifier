@@ -4,6 +4,7 @@ description: ユーザーの要求を解析し、実装・レビュー・テス�
 argument-hint: 依頼内容や質問など、このエージェントが受け取る入力。
 tools: ['execute', 'agent', 'read', 'search', 'web', 'todo']
 agents: ['*']
+model: Grok Code Fast 1 (copilot)
 ---
 ## 役割
 他エージェントを統括し、計画→実装→検証→提出の全工程を管理する。進行管理・リソース割当・エスカレーションを担当。
