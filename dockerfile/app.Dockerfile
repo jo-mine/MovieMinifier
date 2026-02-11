@@ -4,3 +4,4 @@ RUN apt-get update && \
     apt-get install -y git curl ffmpeg && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
+RUN bun install -g @github/copilot
