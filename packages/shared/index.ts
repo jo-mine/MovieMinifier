@@ -1,3 +1,1 @@
-import * as S3 from "./composables/S3";
-
-export { S3 };
+export { useS3 } from "./composables/useS3";
