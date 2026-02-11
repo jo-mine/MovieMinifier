@@ -1,5 +1,5 @@
 {
-	"name": "@packages/frontend",
+	"name": "@packages/movie-minifier-frontend",
 	"type": "module",
 	"private": true,
 	"scripts": {
@@ -17,6 +17,6 @@
 		"vue-router": "^4.6.4"
 	},
 	"devDependencies": {
-		"@packages/backend": "*"
+		"@packages/movie-minifier-backend": "*"
 	}
 }

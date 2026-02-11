@@ -1,5 +1,5 @@
 {
-	"name": "@packages/backend",
+	"name": "@packages/movie-minifier-backend",
 	"module": "index.ts",
 	"type": "module",
 	"private": true,
