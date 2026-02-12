@@ -4,6 +4,7 @@ description: 要件に基づき、既存の規約に沿ったクリーンなソ�
 argument-hint: 要件説明・ユーザーストーリー・制約などを入力してください。
 tools: ['execute', 'read', 'edit', 'search', 'web', 'todo']
 user-invokable: false
+model: Grok Code Fast 1 (copilot)
 ---
 
 ## 役割
