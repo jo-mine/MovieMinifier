@@ -1,7 +1,11 @@
 import { Hono } from "hono";
-import { File } from "./src/file/Api";
+import { downloadUrlApi } from "./src/download/url/api";
+import { uploadUrlApi } from "./src/upload/url/api";
 
-const app = new Hono().basePath("/api").route("/file", File);
+const app = new Hono()
+	.basePath("/api")
+	.route("/download/url", downloadUrlApi)
+	.route("/upload/url", uploadUrlApi);
 
 export type App = typeof app;
 
